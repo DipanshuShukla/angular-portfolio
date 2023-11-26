@@ -1,0 +1,61 @@
+.header {
+    width: 100vw;
+    height: calc(100vw / 2.5);
+    background-color: gray;
+}
+
+.hero {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.socials {
+    position: absolute;
+    top: 16px;
+    font-size: 18px;
+}
+
+.header-content {
+    position: absolute;
+    top: 30%;
+
+}
+
+.header-subtitle {
+    font-size: calc(20px + (45 - 20) * ((100vw - 300px)/ (1600 - 300)));
+    ;
+}
+
+.header-title {
+    font-size: calc(40px + (120 - 40) * ((100vw - 300px)/ (1600 - 300)));
+}
+
+.header-mono {
+    font-size: calc(12px + (19 - 12) * ((100vw - 300px)/ (1600 - 300)));
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: crimson;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
