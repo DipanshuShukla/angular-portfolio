@@ -10,10 +10,6 @@ a {
 }
 
 .navbar {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0;
-    z-index: 1020;
     box-shadow: 0 1px 10px rgba(50, 50, 50, .18);
 }
 
