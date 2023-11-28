@@ -9,6 +9,12 @@ a {
     background-color: transparent;
 }
 
+.burger-btn {
+    display: block;
+    margin-left: auto;
+    font-size: 2.5rem;
+}
+
 .navbar {
     box-shadow: 0 1px 10px rgba(50, 50, 50, .18);
 }
@@ -31,11 +37,11 @@ a {
 }
 
 .nav-left {
-    padding-left: 12em;
+    padding-left: 0rem;
 }
 
 .nav-right {
-    padding-right: 12em;
+    padding-right: 0rem;
 }
 
 
