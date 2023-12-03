@@ -18,3 +18,7 @@
 .card-exp{
     height: calc(100% - 28px);
 }
+
+.card-body a img{
+    margin: 8px;
+}
